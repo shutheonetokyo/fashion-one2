@@ -1,10 +1,14 @@
 class UsersController < ApplicationController
+  # 以下のアクションを追加
+  def index
+    @users = User.all
+  end
+
   def new
     @user = User.new
   end
 
   def create
-    # Strong Parameter の記述
     User.create(user_params)
   end
 
