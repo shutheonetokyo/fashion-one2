@@ -1,24 +1,46 @@
-# README
+# Fashion One（ファッション・ワン）
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## URL
+https://fashion-one.herokuapp.com/
 
-Things you may want to cover:
+## 概要
 
-* Ruby version
+- 都内で有名なブランドやセレクトショップを地域別、価格帯別など自分好みで検索し、口コミができるサービスです。
 
-* System dependencies
+- レビュー機能によって、同じお店でも区によってお店の規模や質が違うといった違いをユーザーが発見できるようにします。
 
-* Configuration
+## このPFを作った背景
 
-* Database creation
+- 元々私は服が好きだったのですが、上京して初めて服を買おうとした時に都内の土地勘が掴めておらず、どの地域にユニクロやH&Mなどがあるのか分からなかったので、ブランドのホームページを直接検索して店舗を探したり、Google Mapでブランドを検索して探していました。
 
-* Database initialization
+- もし複数のブランドやセレクトショップをひとつのサイトで検索でき、都内のある地域だけに絞って検索することができれば、服好きの人、都内に上京したばかりの人、観光で東京を訪れた人は便利に感じるのではないかと思い、開発に至りました。
 
-* How to run the test suite
+## 使用技術
 
-* Services (job queues, cache servers, search engines, etc.)
+- フロントエンド：HTML&CSS, Java Script, Bootstrap
+- バックエンド：Ruby3.0.0 , Ruby on Rails6.1.3.1
+- インフラ：Heroku
+- DB：Postage SQL
+- テスト：Rspec
+- ソースコード管理：GitHub
 
-* Deployment instructions
+## 機能一覧
 
-* ...
+- 検索機能（地域別、価格帯別、ブランド別、いいねの多い順、少ない順で絞り込み）
+- 口コミ投稿機能（★で５段階評価できる）
+- いいね機能（いいねした店舗をマイページ上で見れるようにする）
+- マイページ機能（登録メールアドレスの確認、パスワードの変更）
+- 地図表示機能（詳細画面にGoogle Map情報を追加）
+- 管理者権限（不正ないいねや投稿を制限）
+
+## 後々実装したい機能
+
+- SNS共有機能（Twitter, Instagramに投稿できるようにする）
+- AWSにデプロイ
+
+## テーブル設計
+
+## ER図
+
+## 画面遷移図
+
