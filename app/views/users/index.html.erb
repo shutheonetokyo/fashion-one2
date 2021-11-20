@@ -1,10 +1,12 @@
-<%= link_to "投稿画面へ", new_user_path %>
-<% @users.each do |user| %>
-  <p>
-    <!-- 以下の2行のコードを追加 -->
-    <%= user.name %>
-    <%= user.age %>
-    <%= link_to "削除", user_path(user), method: :delete, data: {confirm: "削除しますか?"} %>
-    <%= link_to "編集", edit_user_path(user) %>
-  </p>
-<% end %>
+<% provide(:title, 'All users') %>
+<h1>All users</h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+  <% @users.each do |user| %>
+    <%= render @users %>
+  <% end %>
+</ul>
+
+<%= will_paginate %>
