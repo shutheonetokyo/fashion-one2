@@ -34,7 +34,7 @@ textarea {
 
 /* typography */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   line-height: 1;
 }
 
@@ -54,6 +54,39 @@ h2 {
   text-align: center;
   font-weight: normal;
   color: $gray-light;
+}
+.area {
+  padding: 32px;
+  h1 {
+  text-align:left;
+  font-size: 24px;
+  }
+}
+
+table {
+  border-collapse: separate;  /* 表の線と線の間を空ける */
+  border-spacing: 20px;       /* 表の線と線の間の幅 */
+  font-weight:  bold;         /* 文字の太さ指定 */
+  table-layout: auto;        /* セルの幅計算指定 */
+  text-align:center;
+  border: solid 1px;          /* 枠線指定 */
+
+}
+
+th {
+  adding: 30px;      /* 余白指定 */
+  width:  150px;              /* 幅指定 */
+  height: 16px;               /* 高さ指定 */
+  font-size: 30px;
+  padding: 8px;
+}
+
+td {
+  border: solid 1px;          /* 枠線指定 */
+  padding: 30px;      /* 余白指定 */
+  width:  150px;              /* 幅指定 */
+  height: 80px;               /* 高さ指定 */
+  font-size: 20px;
 }
 
 p {
