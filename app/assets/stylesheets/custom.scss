@@ -56,6 +56,9 @@ h2 {
   color: $gray-light;
 }
 
+
+/* area */
+
 .area {
   padding: 32px;
   h1 {
@@ -71,7 +74,7 @@ h2 {
     border: solid 1px;          /* 枠線指定 */
   }
   th {
-    adding: 30px;      /* 余白指定 */
+    padding: 30px;      /* 余白指定 */
     width:  150px;              /* 幅指定 */
     height: 16px;               /* 高さ指定 */
     font-size: 30px;
@@ -92,6 +95,7 @@ p {
 }
 
 
+/* genre */
 
 .genre {
   padding: 32px;
@@ -132,6 +136,42 @@ p {
 .genre-images-list img {
   border-radius: 5px;
   width: 100%;
+}
+
+/* brand */
+
+.brand {
+  padding: 32px;
+  h1 {
+    text-align:left;
+    font-size: 24px;
+  }
+}
+
+.brand-images {
+  display: flex;
+  width: 170%;
+}
+
+.brand-images-list {
+  position: relative;/*相対配置*/
+  width: 180px;
+  margin-right: 4px;
+  :hover {
+    opacity: 0.5;
+  }
+}
+
+.brand-images-list p {
+  position: absolute;/*絶対配置*/
+  color: black;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 16px;/*サイズ2倍*/
+}
+
+.brand-images-list img {
+  border-radius: 5px;
+  width: 80%;
 }
 
 
