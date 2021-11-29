@@ -55,44 +55,85 @@ h2 {
   font-weight: normal;
   color: $gray-light;
 }
+
 .area {
   padding: 32px;
   h1 {
-  text-align:left;
-  font-size: 24px;
+    text-align:left;
+    font-size: 24px;
   }
-}
-
-table {
-  border-collapse: separate;  /* 表の線と線の間を空ける */
-  border-spacing: 20px;       /* 表の線と線の間の幅 */
-  font-weight:  bold;         /* 文字の太さ指定 */
-  table-layout: auto;        /* セルの幅計算指定 */
-  text-align:center;
-  border: solid 1px;          /* 枠線指定 */
-
-}
-
-th {
-  adding: 30px;      /* 余白指定 */
-  width:  150px;              /* 幅指定 */
-  height: 16px;               /* 高さ指定 */
-  font-size: 30px;
-  padding: 8px;
-}
-
-td {
-  border: solid 1px;          /* 枠線指定 */
-  padding: 30px;      /* 余白指定 */
-  width:  150px;              /* 幅指定 */
-  height: 80px;               /* 高さ指定 */
-  font-size: 20px;
+  table {
+    border-collapse: separate;  /* 表の線と線の間を空ける */
+    border-spacing: 20px;       /* 表の線と線の間の幅 */
+    font-weight:  bold;         /* 文字の太さ指定 */
+    table-layout: auto;        /* セルの幅計算指定 */
+    text-align:center;
+    border: solid 1px;          /* 枠線指定 */
+  }
+  th {
+    adding: 30px;      /* 余白指定 */
+    width:  150px;              /* 幅指定 */
+    height: 16px;               /* 高さ指定 */
+    font-size: 30px;
+    padding: 8px;
+  }
+  td {
+    border: solid 1px;          /* 枠線指定 */
+    padding: 30px;      /* 余白指定 */
+    width:  150px;              /* 幅指定 */
+    height: 80px;               /* 高さ指定 */
+    font-size: 20px;
+  }
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
+
+
+.genre {
+  padding: 32px;
+  h1 {
+    text-align:left;
+    font-size: 24px;
+  }
+}
+
+.genre-images {
+  display: flex;
+  width: 150%;
+}
+
+.genre-images-list {
+  position: relative;/*相対配置*/
+  width: 200px;
+  margin-left: 10px;
+  :hover {
+    opacity: 0.8;
+  }
+}
+
+.genre-images-list p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 16px;/*サイズ2倍*/
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+}
+
+.genre-images-list img {
+  border-radius: 5px;
+  width: 100%;
+}
+
 
 /* header */
 
