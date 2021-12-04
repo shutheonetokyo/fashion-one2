@@ -1,4 +1,4 @@
-name,address,TEL,URL
-ユニクロ 新宿西口店,東京都新宿区西新宿一丁目1番1号 新宿パレット B1-4F,03-5909-3011,https://map.uniqlo.com/jp/ja/detail/10101313
-ユニクロ 新宿高島屋店,東京都渋谷区千駄ヶ谷5-24-2 タカシマヤタイムズスクエア12F,03-5361-1733,https://map.uniqlo.com/jp/ja/detail/10101360
-ビックロ ユニクロ 新宿東口店,東京都新宿区新宿3-29-1,03-5363-5741,https://map.uniqlo.com/jp/ja/detail/10101424
+name,address,TEL,URL,access
+ユニクロ 新宿西口店,東京都新宿区西新宿一丁目1番1号 新宿パレット B1-4F,03-5909-3011,https://map.uniqlo.com/jp/ja/detail/10101313,小田急新宿駅から徒歩3分
+ユニクロ 新宿高島屋店,東京都渋谷区千駄ヶ谷5-24-2 タカシマヤタイムズスクエア12F,03-5361-1733,https://map.uniqlo.com/jp/ja/detail/10101360,JR新宿駅から徒歩3分
+ビックロ ユニクロ 新宿東口店,東京都新宿区新宿3-29-1,03-5363-5741,https://map.uniqlo.com/jp/ja/detail/10101424,新宿三丁目駅から徒歩3分
