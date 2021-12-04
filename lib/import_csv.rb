@@ -8,7 +8,8 @@ class ImportCsv
          name: row["name"],
          address: row["address"],
          TEL: row["TEL"],
-         URL: row["URL"]
+         URL: row["URL"],
+         access: row["access"]
        )
      end
   end
