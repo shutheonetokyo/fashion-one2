@@ -1,0 +1,27 @@
+ja:
+  enums:
+    shop:
+      genre:
+        fastfashion: "ファストファッション"
+        selectfashion: "セレクトファッション"
+        street: "ストリート"
+        modefashion: "モードファッション"
+        domestic: "ドメスティック"
+        luxury: "ラグジュアリー"
+        vintage: "ヴィンテージ"
+      area:
+        shibuya: "渋谷"
+        harajuku: "原宿"
+        shimokitazawa: "下北沢"
+        daikanyama: "代官山"
+        nakameguro: "中目黒"
+        shinjuku: "新宿"
+        yoyogi: "代々木"
+        nakano: "中野"
+        koenji: "高円寺"
+        kichijoji: "吉祥寺"
+        roppongi: "六本木"
+        ginza: "銀座"
+        yurakucho: "有楽町"
+        tokyo: "東京"
+        ikebukuro: "池袋"

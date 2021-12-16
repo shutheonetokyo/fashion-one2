@@ -14,3 +14,7 @@ class ImportCsv
      end
   end
 end
+
+# require "import_csv"
+# ImportCsv.import('db/csv_data/shop_data.csv')
+
