@@ -9,15 +9,23 @@
 <div class="shop-index">
   <div class="wrapper">
   <p><%= @shops.length %>件ヒットしました。</p>
+
     <div class="shop-list">
       <% @shops.each do |shop| %>
-        <div class="shop-name"><%= shop.name %></div>
-        <div class="shop-address"><%= shop.address %></div>
-        <div class="shop-TEL"><%= shop.TEL %></div>
-        <div class="shop-URL"><%= shop.URL %></div>
-        <div class="shop-access"><%= shop.access %></div>
+        <div class="shop">
+          <div class="shop-title">
+            <div class="shop-name"><%= shop.name %></div>
+            <div class="shop-area"><%= shop.area %></div>
+            <div class="shop-genre"><%= shop.genre %></div>
+          </div>
+          <div class="shop-info">
+            <div class="shop-access"><%= shop.access %></div>
+          </div>
+        </div>
       <% end %>
     </div>
+
+
   </div>
 </div>
 

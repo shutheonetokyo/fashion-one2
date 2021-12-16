@@ -1,0 +1,17 @@
+ja:
+  activerecord:
+    models:
+      shop: 
+    attributes:
+      shop: 
+        name: 名前
+        address: 住所
+        TEL: 電話番号
+        URL: url
+        user_id: ユーザーID
+        access: 最寄り駅からの距離
+        image: 画像
+        shopping_hours: 営業時間
+        content: 説明
+        area: エリア
+

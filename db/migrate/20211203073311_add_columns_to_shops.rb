@@ -8,3 +8,5 @@ class AddColumnsToShops < ActiveRecord::Migration[6.1]
 
   end
 end
+
+# rails generate migration AddGenreToShops genre:integer
