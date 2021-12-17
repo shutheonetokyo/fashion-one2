@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_16_131616) do
+ActiveRecord::Schema.define(version: 2021_12_17_053015) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 2021_12_16_131616) do
     t.string "shopping_hours"
     t.text "content"
     t.string "area"
+    t.bigint "genre_id"
+    t.index ["genre_id"], name: "index_shops_on_genre_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -46,4 +48,5 @@ ActiveRecord::Schema.define(version: 2021_12_16_131616) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  add_foreign_key "shops", "genres"
 end
