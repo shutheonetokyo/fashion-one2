@@ -9,12 +9,15 @@ class ImportCsv
          address: row["address"],
          TEL: row["TEL"],
          URL: row["URL"],
-         access: row["access"]
+         access: row["access"],
+         genre_id: row["genre_id"]
        )
      end
   end
 end
 
 # require "import_csv"
+
 # ImportCsv.import('db/csv_data/shop_data.csv')
 
+# 

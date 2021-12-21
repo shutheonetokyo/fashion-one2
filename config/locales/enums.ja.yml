@@ -1,14 +1,6 @@
 ja:
   enums:
     shop:
-      genre:
-        fastfashion: "ファストファッション"
-        selectfashion: "セレクトファッション"
-        street: "ストリート"
-        modefashion: "モードファッション"
-        domestic: "ドメスティック"
-        luxury: "ラグジュアリー"
-        vintage: "ヴィンテージ"
       area:
         shibuya: "渋谷"
         harajuku: "原宿"
