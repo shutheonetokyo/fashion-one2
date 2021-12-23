@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  color: black;
+  max-width: 100%;
 }
 
 /* モバイル版 
@@ -48,6 +48,7 @@ body {
   color: black;
   letter-spacing: -1px;
   font-weight: bold;
+  color: white;
 }
 
 .main-nav {
@@ -56,7 +57,7 @@ body {
   font-size: 1.0rem;
   list-style: none;
   a{
-  color: black;
+    color: white;
   }
   li {
   margin-left: 36px;
@@ -67,23 +68,40 @@ body {
   margin-right: 10px;
 }
 
+
 /* static_pages home */
+
+
+/* 背景画像 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+
+#home {
+  background: linear-gradient(#de4d4d, #f5a500);
+  min-height: 60vh;
+}
 
 .center {
   text-align: center;
+  margin-top: 100px;
+  white-space: nowrap;
   h1 {
-    font-size: 3em;
-    letter-spacing: -2px;
+    font-size: 4em;
+    letter-spacing: -1px;
     font-family: "メイリオ" ;
     font-weight: bold;
     margin-bottom: 10px;
+    color: white;
+
   }
   h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: white;
   }
 }
 
@@ -94,9 +112,11 @@ body {
   white-space: nowrap;
   h1 {
     text-align:left;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
   }
   table {
+    border-radius: 4px;
     border-collapse: separate;  /* 表の線と線の間を空ける */
     border-spacing: 20px;       /* 表の線と線の間の幅 */
     font-weight:  bold;         /* 文字の太さ指定 */
@@ -105,24 +125,19 @@ body {
     border: solid 1px;          /* 枠線指定 */
   }
   th {
-    padding: 30px;      /* 余白指定 */
     width:  150px;              /* 幅指定 */
     height: 16px;               /* 高さ指定 */
-    font-size: 30px;
+    font-size: 26px;
     padding: 8px;
   }
   td {
+    border-radius: 4px;
     border: solid 1px;          /* 枠線指定 */
     padding: 30px;      /* 余白指定 */
     width:  150px;              /* 幅指定 */
     height: 80px;               /* 高さ指定 */
     font-size: 20px;
   }
-}
-
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
 }
 
 
@@ -132,7 +147,8 @@ p {
   padding: 32px;
   h1 {
     text-align:left;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
   }
 }
 
@@ -168,6 +184,7 @@ p {
   border-radius: 5px;
   width: 100%;
 }
+
 
 /* brand */
 
